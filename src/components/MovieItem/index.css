@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.pop-con {
+  width: 300px;
+  border-radius: 100px;
+  background-color: red;
+}
+.popup-player {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  padding-bottom: 25px;
+}
+
+.react-player {
+  width: 300px;
+  height: 300px;
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  align-self: flex-end;
+  outline: none;
+  cursor: pointer;
+}
