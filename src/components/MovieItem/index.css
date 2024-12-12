@@ -3,6 +3,11 @@
 .pop-con {
   width: 300px;
   border-radius: 100px;
+}
+
+/*  default property */
+.popup-content {
+  border-radius: 10px;
   background-color: red;
 }
 .popup-player {

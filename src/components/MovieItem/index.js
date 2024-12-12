@@ -11,6 +11,7 @@ const MovieItem = props => {
   return (
     <div>
       <Popup
+        modal
         trigger={
           <img
             src={each.thumbnailUrl}
@@ -18,9 +19,7 @@ const MovieItem = props => {
             style={{cursor: 'pointer'}}
           />
         }
-        modal
         className="pop-con"
-        style={{borderRadius: '100px'}}
       >
         {close => (
           <div className="popup-player">
